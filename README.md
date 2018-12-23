@@ -7,3 +7,22 @@ Each array represents a particular signature , one for Rows one For Columns and 
 
 ![](signature.png)
 
+
+for this example i used this signature 
+```
+ int dataRow[] = new int[]{ 2, 2 ,2, 6, 4 ,2, 2 ,2};
+ int dataCol[] = new int[]{ 1, 1, 6, 3, 3, 6 ,1 ,1};
+ int dataDiagUp[] = new int[]{ 0, 0, 0, 2, 4, 1, 2, 4, 3, 2, 1, 2, 1, 0, 0};
+ int dataDiagDown[] = new int[]{ 0, 0, 1, 2, 1, 2, 3, 4, 2, 1, 4, 2, 0, 0, 0};
+
+```
+to make it work please add to your maven file the following code
+
+```
+<dependency>
+   <groupId>org.choco-solver</groupId>
+   <artifactId>choco-solver</artifactId>
+   <version>4.10.0</version>
+</dependency>
+
+```
