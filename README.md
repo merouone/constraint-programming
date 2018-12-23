@@ -5,5 +5,5 @@ Here some here comes programming by constraints in which we give our initial con
 In this example we input to out program a signature in form of arrays
 Each array represents a particular signature , one for Rows one For Columns and one for Diagonals 
 
-![signature](/images/signature.png)
+![](signature.png)
 
