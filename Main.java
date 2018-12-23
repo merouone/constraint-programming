@@ -1,4 +1,4 @@
-package tp4;
+
 
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.Solution;
