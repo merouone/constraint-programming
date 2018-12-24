@@ -1,6 +1,6 @@
 # constraint-programming
 Imagine we do not have an image probably we lost it or we compressed it and we want that our AI system be able restore it just by having only its signature .
-Here comes programming by constraints in which we give our initial conditions and the domain of our variables and let the solver to figure out could be  the solution .
+Here comes programming by constraints in which we give our initial conditions and the domain of our variables and let the solver to figure out what could be  the solution .
 In this example we input to our program a signature in form of 4 arrays
 Each array represents a particular signature , one for Rows one For Columns and one for Diagonals 
 afterward out program combines all the contraints using sum operation .
