@@ -1,9 +1,10 @@
 # constraint-programming
-constraint programming using choco 
-Imagine we do not have an image probably we lost it or we compressed and we want our AI system to restore it just by using its signature .
-Here some here comes programming by constraints in which we give our initial conditions and domain of our variables and let the solver to figure out what is the solution 
-In this example we input to out program a signature in form of arrays
+Imagine we do not have an image probably we lost it or we compressed it and we want that our AI system be able restore it just by having only its signature .
+Here comes programming by constraints in which we give our initial conditions and the domain of our variables and let the solver to figure out could be  the solution .
+In this example we input to our program a signature in form of 4 arrays
 Each array represents a particular signature , one for Rows one For Columns and one for Diagonals 
+afterward out program combines all the contraints using sum operation .
+For example in our signature below, we say that ```dataRow[0] = 2``` which means that the summation of all our first rows in this picture must be equal to 2, likewise  ```dataCol[0] = 1 ``` all the first columns of the image must be equal to 1 for the diagonals too .
 
 ![](signature.png)
 
